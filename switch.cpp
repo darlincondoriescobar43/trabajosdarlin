@@ -61,7 +61,7 @@ int main() {
             default:
                 cout << "Opción inválida. No se ha seleccionado ninguna bebida.\n";
         }
-    }
+    } // MODIFICAR PARA EL CASO QUE SI EL TOTAL DE ENTRADAS GENERALES QUE SE COMPRO SUPERO LOS 8 BOLETOS ENTOCER DARLE UN RECONOCIMIENTO COMO CLIENTE ESTRELLA
 
     return 0;
 }
