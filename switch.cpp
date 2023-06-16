@@ -39,6 +39,10 @@ int main() {
 
     cout << "El total a pagar por " << cantidad << " entradas es: " << total << " euros.\n";
 
+    if (ubicacion == 1 && cantidad > 8) {
+        cout << "¡Felicidades! Por comprar más de 8 entradas generales, usted ha sido reconocido como Cliente Estrella.\n";
+    }
+
     if (ubicacion == 4) {
         int opcion;
         cout << "Seleccione una bebida:\n";
@@ -61,7 +65,7 @@ int main() {
             default:
                 cout << "Opción inválida. No se ha seleccionado ninguna bebida.\n";
         }
-    } // MODIFICAR PARA EL CASO QUE SI EL TOTAL DE ENTRADAS GENERALES QUE SE COMPRO SUPERO LOS 8 BOLETOS ENTOCER DARLE UN RECONOCIMIENTO COMO CLIENTE ESTRELLA
+    }
 
     return 0;
 }
